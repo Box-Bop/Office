@@ -1,0 +1,7 @@
+C:\Users\opilane\Desktop\KT\Office\Office\bin\Debug\Office.exe.config
+C:\Users\opilane\Desktop\KT\Office\Office\bin\Debug\Office.exe
+C:\Users\opilane\Desktop\KT\Office\Office\bin\Debug\Office.pdb
+C:\Users\opilane\Desktop\KT\Office\Office\obj\Debug\Office.csprojResolveAssemblyReference.cache
+C:\Users\opilane\Desktop\KT\Office\Office\obj\Debug\Office.csproj.CoreCompileInputs.cache
+C:\Users\opilane\Desktop\KT\Office\Office\obj\Debug\Office.exe
+C:\Users\opilane\Desktop\KT\Office\Office\obj\Debug\Office.pdb
