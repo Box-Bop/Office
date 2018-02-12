@@ -14,11 +14,12 @@ namespace Office
         public virtual void Enter()
         {
             Console.WriteLine("Right, you were the/a " + who + " here!\nWhich room do you wish to head to?");
+            Console.WriteLine(Access);
+            int dec = Convert.ToInt16(Console.ReadLine());
             switch (who)
             {
+                
                 case "Young Developer":
-                    Console.WriteLine(Access);
-                    int dec = Convert.ToInt16(Console.ReadLine());
                     switch (dec)
                     {
                         case 1:
@@ -30,9 +31,7 @@ namespace Office
                     }
                     break;
                 case "Boss":
-                    Console.WriteLine(Access);
-                    int dec2 = Convert.ToInt16(Console.ReadLine());
-                    switch (dec2)
+                    switch (dec)
                     {
                         case 1:
                             DeveloperRoom();
@@ -49,9 +48,7 @@ namespace Office
                     }
                     break;
                 case "Developer":
-                    Console.WriteLine(Access);
-                    int dec3 = Convert.ToInt16(Console.ReadLine());
-                    switch (dec3)
+                    switch (dec)
                     {
                         case 1:
                             DeveloperRoom();
@@ -62,9 +59,26 @@ namespace Office
                     }
                     break;
                 case "Janitor":
-                    Console.WriteLine(Access);
-                    int dec4 = Convert.ToInt16(Console.ReadLine());
-                    switch (dec4)
+                    switch (dec)
+                    {
+                        case 1:
+                            Kitchen();
+                            break;
+                    }
+                    break;
+                case "Database handler":
+                    switch (dec)
+                    {
+                        case 2:
+                            DatabaseRoom();
+                            break;
+                        case 1:
+                            Kitchen();
+                            break;
+                    }
+                    break;
+                case "Electronic Cleaner":
+                    switch (dec)
                     {
                         case 1:
                             DeveloperRoom();
@@ -74,9 +88,6 @@ namespace Office
                             break;
                         case 3:
                             DatabaseRoom();
-                            break;
-                        case 4:
-                            BossesOffice();
                             break;
                     }
                     break;

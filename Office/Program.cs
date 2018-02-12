@@ -51,7 +51,7 @@ namespace Office
                         break;
                     default:
                         Console.Clear();
-                        Console.WriteLine("Invalid option");
+                        Console.WriteLine("Come to think of it, I haven't seen you in here at all.\nGet out of the door right now!\n\n");
                         break;
                 }
 

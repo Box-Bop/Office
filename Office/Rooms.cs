@@ -8,21 +8,25 @@ namespace Office
 {
     class Rooms
     {
-        public void DeveloperRoom()
+        protected void DeveloperRoom()
         {
-            Console.WriteLine("You head to the developers room, where there are only a few\npeople, but they're all working. It's great to see that.");
+            Console.Clear();
+            Console.WriteLine("You head to the developers room, where there are only a few\npeople, but they're all working. It's great to see that.\n\n");
         }
-        public void BossesOffice()
+        protected void BossesOffice()
         {
-            Console.WriteLine("");
+            Console.Clear();
+            Console.WriteLine("You go to your office to boss around, like a real boss.\n\n");
         }
-        public void Kitchen()
+        protected void Kitchen()
         {
-            Console.WriteLine("Your stomach is now full and you're ready to do some work");
+            Console.Clear();
+            Console.WriteLine("Your stomach is now full and you're ready to do some work.\n\n");
         }
-        public void DatabaseRoom()
+        protected void DatabaseRoom()
         {
-            Console.WriteLine("All these servers look pretty with all their colours.\nYou end up staring at them for the rest of the day");
+            Console.Clear();
+            Console.WriteLine("All these servers look pretty with all their colours.\nYou end up staring at them for the rest of the day.\n\n");
         }
     }
 }
